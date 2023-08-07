@@ -9,9 +9,10 @@ import SwiftUI
 
 @main
 struct qrcodereaderApp: App {
+    @StateObject var viewRouter = ViewRouter()
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            HomeScreenView(presenter: HomeScreenPresenter())
         }
     }
 }

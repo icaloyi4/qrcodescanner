@@ -8,12 +8,37 @@
 
 /* Begin PBXBuildFile section */
 		5DCBD1D72A7E9B1D00A213B3 /* qrcodereaderApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DCBD1D62A7E9B1D00A213B3 /* qrcodereaderApp.swift */; };
-		5DCBD1D92A7E9B1D00A213B3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DCBD1D82A7E9B1D00A213B3 /* ContentView.swift */; };
 		5DCBD1DB2A7E9B1F00A213B3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5DCBD1DA2A7E9B1F00A213B3 /* Assets.xcassets */; };
 		5DCBD1DF2A7E9B1F00A213B3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5DCBD1DE2A7E9B1F00A213B3 /* Preview Assets.xcassets */; };
 		5DCBD1E92A7E9B1F00A213B3 /* qrcodereaderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DCBD1E82A7E9B1F00A213B3 /* qrcodereaderTests.swift */; };
 		5DCBD1F32A7E9B2000A213B3 /* qrcodereaderUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DCBD1F22A7E9B2000A213B3 /* qrcodereaderUITests.swift */; };
 		5DCBD1F52A7E9B2000A213B3 /* qrcodereaderUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DCBD1F42A7E9B2000A213B3 /* qrcodereaderUITestsLaunchTests.swift */; };
+		5DCBD2062A7EAC2400A213B3 /* Route.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DCBD2052A7EAC2400A213B3 /* Route.swift */; };
+		5DCBD2082A7EAC3900A213B3 /* ViewRoute.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DCBD2072A7EAC3900A213B3 /* ViewRoute.swift */; };
+		5DCBD2102A7EAEE000A213B3 /* HomeScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DCBD20F2A7EAEE000A213B3 /* HomeScreenView.swift */; };
+		5DCBD2122A7EAF0E00A213B3 /* HomeScreenPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DCBD2112A7EAF0E00A213B3 /* HomeScreenPresenter.swift */; };
+		5DCBD2152A7EAF2800A213B3 /* HomeScreenEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DCBD2142A7EAF2800A213B3 /* HomeScreenEntity.swift */; };
+		5DCBD2172A7EAF5500A213B3 /* HomeScreenInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DCBD2162A7EAF5500A213B3 /* HomeScreenInteractor.swift */; };
+		5DCBD21C2A7EB3D200A213B3 /* HeaderHomeScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DCBD21B2A7EB3D200A213B3 /* HeaderHomeScreen.swift */; };
+		5DCBD21E2A7EBDE200A213B3 /* HistoryTransactionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DCBD21D2A7EBDE200A213B3 /* HistoryTransactionView.swift */; };
+		5DCBD2212A7EBF1000A213B3 /* ScreenSize.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DCBD2202A7EBF1000A213B3 /* ScreenSize.swift */; };
+		5DCBD2292A7ECEC100A213B3 /* BackButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DCBD2282A7ECEC100A213B3 /* BackButton.swift */; };
+		5DCBD22C2A7ED29700A213B3 /* CodeScanner in Frameworks */ = {isa = PBXBuildFile; productRef = 5DCBD22B2A7ED29700A213B3 /* CodeScanner */; };
+		5DCBD2332A7ED35C00A213B3 /* PembayaranView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DCBD2322A7ED35C00A213B3 /* PembayaranView.swift */; };
+		5DCBD2352A7ED60A00A213B3 /* CircularProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DCBD2342A7ED60A00A213B3 /* CircularProgressView.swift */; };
+		5DCBD2372A7ED85500A213B3 /* PembayaranPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DCBD2362A7ED85500A213B3 /* PembayaranPresenter.swift */; };
+		5DCBD2392A7ED8AE00A213B3 /* PembayaranEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DCBD2382A7ED8AE00A213B3 /* PembayaranEntity.swift */; };
+		5DCBD25C2A7EEB2D00A213B3 /* DefaultView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DCBD25B2A7EEB2D00A213B3 /* DefaultView.swift */; };
+		5DCBD25E2A7EED6900A213B3 /* PembayaranInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DCBD25D2A7EED6900A213B3 /* PembayaranInteractor.swift */; };
+		5DCBD2602A7F7FD200A213B3 /* PembayaranRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DCBD25F2A7F7FD200A213B3 /* PembayaranRouter.swift */; };
+		5DCBD2632A7FFF2600A213B3 /* SharedPrefference.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DCBD2622A7FFF2600A213B3 /* SharedPrefference.swift */; };
+		5DCBD2662A7FFF4E00A213B3 /* AmmountModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DCBD2652A7FFF4E00A213B3 /* AmmountModel.swift */; };
+		5DCBD2682A8003BE00A213B3 /* TransactionModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DCBD2672A8003BE00A213B3 /* TransactionModel.swift */; };
+		5DCBD26A2A80041400A213B3 /* HistoryTransactionEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DCBD2692A80041400A213B3 /* HistoryTransactionEntity.swift */; };
+		5DCBD26C2A80052200A213B3 /* HistoryTransactionPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DCBD26B2A80052200A213B3 /* HistoryTransactionPresenter.swift */; };
+		5DCBD26E2A80053500A213B3 /* HistoryTransactionInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DCBD26D2A80053500A213B3 /* HistoryTransactionInteractor.swift */; };
+		5DCBD2722A80079100A213B3 /* TransactionHistoryBaseProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DCBD2712A80079100A213B3 /* TransactionHistoryBaseProtocol.swift */; };
+		5DCBD2752A80136100A213B3 /* PembayaranProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DCBD2742A80136100A213B3 /* PembayaranProtocol.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +61,6 @@
 /* Begin PBXFileReference section */
 		5DCBD1D32A7E9B1D00A213B3 /* qrcodereader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = qrcodereader.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5DCBD1D62A7E9B1D00A213B3 /* qrcodereaderApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = qrcodereaderApp.swift; sourceTree = "<group>"; };
-		5DCBD1D82A7E9B1D00A213B3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		5DCBD1DA2A7E9B1F00A213B3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5DCBD1DC2A7E9B1F00A213B3 /* qrcodereader.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = qrcodereader.entitlements; sourceTree = "<group>"; };
 		5DCBD1DE2A7E9B1F00A213B3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -45,6 +69,31 @@
 		5DCBD1EE2A7E9B1F00A213B3 /* qrcodereaderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = qrcodereaderUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5DCBD1F22A7E9B2000A213B3 /* qrcodereaderUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = qrcodereaderUITests.swift; sourceTree = "<group>"; };
 		5DCBD1F42A7E9B2000A213B3 /* qrcodereaderUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = qrcodereaderUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		5DCBD2052A7EAC2400A213B3 /* Route.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Route.swift; sourceTree = "<group>"; };
+		5DCBD2072A7EAC3900A213B3 /* ViewRoute.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewRoute.swift; sourceTree = "<group>"; };
+		5DCBD20F2A7EAEE000A213B3 /* HomeScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreenView.swift; sourceTree = "<group>"; };
+		5DCBD2112A7EAF0E00A213B3 /* HomeScreenPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreenPresenter.swift; sourceTree = "<group>"; };
+		5DCBD2142A7EAF2800A213B3 /* HomeScreenEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreenEntity.swift; sourceTree = "<group>"; };
+		5DCBD2162A7EAF5500A213B3 /* HomeScreenInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreenInteractor.swift; sourceTree = "<group>"; };
+		5DCBD21B2A7EB3D200A213B3 /* HeaderHomeScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderHomeScreen.swift; sourceTree = "<group>"; };
+		5DCBD21D2A7EBDE200A213B3 /* HistoryTransactionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryTransactionView.swift; sourceTree = "<group>"; };
+		5DCBD2202A7EBF1000A213B3 /* ScreenSize.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreenSize.swift; sourceTree = "<group>"; };
+		5DCBD2282A7ECEC100A213B3 /* BackButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackButton.swift; sourceTree = "<group>"; };
+		5DCBD2322A7ED35C00A213B3 /* PembayaranView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PembayaranView.swift; sourceTree = "<group>"; };
+		5DCBD2342A7ED60A00A213B3 /* CircularProgressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircularProgressView.swift; sourceTree = "<group>"; };
+		5DCBD2362A7ED85500A213B3 /* PembayaranPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PembayaranPresenter.swift; sourceTree = "<group>"; };
+		5DCBD2382A7ED8AE00A213B3 /* PembayaranEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PembayaranEntity.swift; sourceTree = "<group>"; };
+		5DCBD25B2A7EEB2D00A213B3 /* DefaultView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefaultView.swift; sourceTree = "<group>"; };
+		5DCBD25D2A7EED6900A213B3 /* PembayaranInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PembayaranInteractor.swift; sourceTree = "<group>"; };
+		5DCBD25F2A7F7FD200A213B3 /* PembayaranRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PembayaranRouter.swift; sourceTree = "<group>"; };
+		5DCBD2622A7FFF2600A213B3 /* SharedPrefference.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SharedPrefference.swift; sourceTree = "<group>"; };
+		5DCBD2652A7FFF4E00A213B3 /* AmmountModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AmmountModel.swift; sourceTree = "<group>"; };
+		5DCBD2672A8003BE00A213B3 /* TransactionModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionModel.swift; sourceTree = "<group>"; };
+		5DCBD2692A80041400A213B3 /* HistoryTransactionEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryTransactionEntity.swift; sourceTree = "<group>"; };
+		5DCBD26B2A80052200A213B3 /* HistoryTransactionPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryTransactionPresenter.swift; sourceTree = "<group>"; };
+		5DCBD26D2A80053500A213B3 /* HistoryTransactionInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryTransactionInteractor.swift; sourceTree = "<group>"; };
+		5DCBD2712A80079100A213B3 /* TransactionHistoryBaseProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionHistoryBaseProtocol.swift; sourceTree = "<group>"; };
+		5DCBD2742A80136100A213B3 /* PembayaranProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PembayaranProtocol.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +101,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5DCBD22C2A7ED29700A213B3 /* CodeScanner in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -95,11 +145,12 @@
 		5DCBD1D52A7E9B1D00A213B3 /* qrcodereader */ = {
 			isa = PBXGroup;
 			children = (
-				5DCBD1D62A7E9B1D00A213B3 /* qrcodereaderApp.swift */,
-				5DCBD1D82A7E9B1D00A213B3 /* ContentView.swift */,
 				5DCBD1DA2A7E9B1F00A213B3 /* Assets.xcassets */,
-				5DCBD1DC2A7E9B1F00A213B3 /* qrcodereader.entitlements */,
+				5DCBD2012A7EABE400A213B3 /* Core */,
+				5DCBD2022A7EABEA00A213B3 /* Modules */,
 				5DCBD1DD2A7E9B1F00A213B3 /* Preview Content */,
+				5DCBD1DC2A7E9B1F00A213B3 /* qrcodereader.entitlements */,
+				5DCBD1D62A7E9B1D00A213B3 /* qrcodereaderApp.swift */,
 			);
 			path = qrcodereader;
 			sourceTree = "<group>";
@@ -129,6 +180,261 @@
 			path = qrcodereaderUITests;
 			sourceTree = "<group>";
 		};
+		5DCBD2012A7EABE400A213B3 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				5DCBD2642A7FFF3300A213B3 /* Model */,
+				5DCBD2612A7FFF1100A213B3 /* Preference */,
+				5DCBD2272A7ECEAB00A213B3 /* Shared */,
+				5DCBD21F2A7EBEF600A213B3 /* Utils */,
+				5DCBD20B2A7EAE1700A213B3 /* Protocols */,
+				5DCBD2032A7EABF300A213B3 /* Routes */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		5DCBD2022A7EABEA00A213B3 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				5DCBD2492A7EE5F500A213B3 /* HistoryTransactionModule */,
+				5DCBD2472A7EE5CF00A213B3 /* HomeModule */,
+				5DCBD2482A7EE5DB00A213B3 /* PembayaranModule */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		5DCBD2032A7EABF300A213B3 /* Routes */ = {
+			isa = PBXGroup;
+			children = (
+				5DCBD2052A7EAC2400A213B3 /* Route.swift */,
+				5DCBD2072A7EAC3900A213B3 /* ViewRoute.swift */,
+			);
+			path = Routes;
+			sourceTree = "<group>";
+		};
+		5DCBD20B2A7EAE1700A213B3 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		5DCBD21A2A7EB3A400A213B3 /* Child */ = {
+			isa = PBXGroup;
+			children = (
+				5DCBD21B2A7EB3D200A213B3 /* HeaderHomeScreen.swift */,
+			);
+			path = Child;
+			sourceTree = "<group>";
+		};
+		5DCBD21F2A7EBEF600A213B3 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				5DCBD2202A7EBF1000A213B3 /* ScreenSize.swift */,
+				5DCBD2342A7ED60A00A213B3 /* CircularProgressView.swift */,
+				5DCBD25B2A7EEB2D00A213B3 /* DefaultView.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		5DCBD2272A7ECEAB00A213B3 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				5DCBD2282A7ECEC100A213B3 /* BackButton.swift */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		5DCBD2472A7EE5CF00A213B3 /* HomeModule */ = {
+			isa = PBXGroup;
+			children = (
+				5DCBD2582A7EE6E700A213B3 /* Router */,
+				5DCBD2572A7EE6DF00A213B3 /* View */,
+				5DCBD2562A7EE6DA00A213B3 /* Interactor */,
+				5DCBD2552A7EE6D500A213B3 /* Presenter */,
+				5DCBD2542A7EE6D000A213B3 /* Entity */,
+			);
+			path = HomeModule;
+			sourceTree = "<group>";
+		};
+		5DCBD2482A7EE5DB00A213B3 /* PembayaranModule */ = {
+			isa = PBXGroup;
+			children = (
+				5DCBD2732A80134D00A213B3 /* Protocol */,
+				5DCBD2532A7EE6C900A213B3 /* Router */,
+				5DCBD2522A7EE6C400A213B3 /* View */,
+				5DCBD2512A7EE6BE00A213B3 /* Interactor */,
+				5DCBD2502A7EE6B400A213B3 /* Presenter */,
+				5DCBD24F2A7EE6AB00A213B3 /* Entity */,
+			);
+			path = PembayaranModule;
+			sourceTree = "<group>";
+		};
+		5DCBD2492A7EE5F500A213B3 /* HistoryTransactionModule */ = {
+			isa = PBXGroup;
+			children = (
+				5DCBD26F2A80076F00A213B3 /* Protocol */,
+				5DCBD24E2A7EE6A400A213B3 /* Router */,
+				5DCBD24D2A7EE65B00A213B3 /* View */,
+				5DCBD24C2A7EE65600A213B3 /* Interactor */,
+				5DCBD24B2A7EE65100A213B3 /* Presenter */,
+				5DCBD24A2A7EE64500A213B3 /* Entity */,
+			);
+			path = HistoryTransactionModule;
+			sourceTree = "<group>";
+		};
+		5DCBD24A2A7EE64500A213B3 /* Entity */ = {
+			isa = PBXGroup;
+			children = (
+				5DCBD2692A80041400A213B3 /* HistoryTransactionEntity.swift */,
+			);
+			path = Entity;
+			sourceTree = "<group>";
+		};
+		5DCBD24B2A7EE65100A213B3 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				5DCBD26B2A80052200A213B3 /* HistoryTransactionPresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		5DCBD24C2A7EE65600A213B3 /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				5DCBD26D2A80053500A213B3 /* HistoryTransactionInteractor.swift */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		5DCBD24D2A7EE65B00A213B3 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				5DCBD21D2A7EBDE200A213B3 /* HistoryTransactionView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		5DCBD24E2A7EE6A400A213B3 /* Router */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		5DCBD24F2A7EE6AB00A213B3 /* Entity */ = {
+			isa = PBXGroup;
+			children = (
+				5DCBD2382A7ED8AE00A213B3 /* PembayaranEntity.swift */,
+			);
+			path = Entity;
+			sourceTree = "<group>";
+		};
+		5DCBD2502A7EE6B400A213B3 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				5DCBD2362A7ED85500A213B3 /* PembayaranPresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		5DCBD2512A7EE6BE00A213B3 /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				5DCBD25D2A7EED6900A213B3 /* PembayaranInteractor.swift */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		5DCBD2522A7EE6C400A213B3 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				5DCBD2322A7ED35C00A213B3 /* PembayaranView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		5DCBD2532A7EE6C900A213B3 /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				5DCBD25F2A7F7FD200A213B3 /* PembayaranRouter.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		5DCBD2542A7EE6D000A213B3 /* Entity */ = {
+			isa = PBXGroup;
+			children = (
+				5DCBD2142A7EAF2800A213B3 /* HomeScreenEntity.swift */,
+			);
+			path = Entity;
+			sourceTree = "<group>";
+		};
+		5DCBD2552A7EE6D500A213B3 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				5DCBD2112A7EAF0E00A213B3 /* HomeScreenPresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		5DCBD2562A7EE6DA00A213B3 /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				5DCBD2162A7EAF5500A213B3 /* HomeScreenInteractor.swift */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		5DCBD2572A7EE6DF00A213B3 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				5DCBD21A2A7EB3A400A213B3 /* Child */,
+				5DCBD20F2A7EAEE000A213B3 /* HomeScreenView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		5DCBD2582A7EE6E700A213B3 /* Router */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		5DCBD2612A7FFF1100A213B3 /* Preference */ = {
+			isa = PBXGroup;
+			children = (
+				5DCBD2622A7FFF2600A213B3 /* SharedPrefference.swift */,
+			);
+			path = Preference;
+			sourceTree = "<group>";
+		};
+		5DCBD2642A7FFF3300A213B3 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				5DCBD2652A7FFF4E00A213B3 /* AmmountModel.swift */,
+				5DCBD2672A8003BE00A213B3 /* TransactionModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		5DCBD26F2A80076F00A213B3 /* Protocol */ = {
+			isa = PBXGroup;
+			children = (
+				5DCBD2712A80079100A213B3 /* TransactionHistoryBaseProtocol.swift */,
+			);
+			path = Protocol;
+			sourceTree = "<group>";
+		};
+		5DCBD2732A80134D00A213B3 /* Protocol */ = {
+			isa = PBXGroup;
+			children = (
+				5DCBD2742A80136100A213B3 /* PembayaranProtocol.swift */,
+			);
+			path = Protocol;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -145,6 +451,9 @@
 			dependencies = (
 			);
 			name = qrcodereader;
+			packageProductDependencies = (
+				5DCBD22B2A7ED29700A213B3 /* CodeScanner */,
+			);
 			productName = qrcodereader;
 			productReference = 5DCBD1D32A7E9B1D00A213B3 /* qrcodereader.app */;
 			productType = "com.apple.product-type.application";
@@ -217,6 +526,9 @@
 				Base,
 			);
 			mainGroup = 5DCBD1CA2A7E9B1D00A213B3;
+			packageReferences = (
+				5DCBD22A2A7ED29700A213B3 /* XCRemoteSwiftPackageReference "CodeScanner" */,
+			);
 			productRefGroup = 5DCBD1D42A7E9B1D00A213B3 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -259,7 +571,31 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5DCBD1D92A7E9B1D00A213B3 /* ContentView.swift in Sources */,
+				5DCBD21C2A7EB3D200A213B3 /* HeaderHomeScreen.swift in Sources */,
+				5DCBD21E2A7EBDE200A213B3 /* HistoryTransactionView.swift in Sources */,
+				5DCBD2082A7EAC3900A213B3 /* ViewRoute.swift in Sources */,
+				5DCBD2172A7EAF5500A213B3 /* HomeScreenInteractor.swift in Sources */,
+				5DCBD2632A7FFF2600A213B3 /* SharedPrefference.swift in Sources */,
+				5DCBD2152A7EAF2800A213B3 /* HomeScreenEntity.swift in Sources */,
+				5DCBD25E2A7EED6900A213B3 /* PembayaranInteractor.swift in Sources */,
+				5DCBD26C2A80052200A213B3 /* HistoryTransactionPresenter.swift in Sources */,
+				5DCBD2662A7FFF4E00A213B3 /* AmmountModel.swift in Sources */,
+				5DCBD2122A7EAF0E00A213B3 /* HomeScreenPresenter.swift in Sources */,
+				5DCBD2722A80079100A213B3 /* TransactionHistoryBaseProtocol.swift in Sources */,
+				5DCBD2212A7EBF1000A213B3 /* ScreenSize.swift in Sources */,
+				5DCBD2372A7ED85500A213B3 /* PembayaranPresenter.swift in Sources */,
+				5DCBD2332A7ED35C00A213B3 /* PembayaranView.swift in Sources */,
+				5DCBD2602A7F7FD200A213B3 /* PembayaranRouter.swift in Sources */,
+				5DCBD2062A7EAC2400A213B3 /* Route.swift in Sources */,
+				5DCBD26A2A80041400A213B3 /* HistoryTransactionEntity.swift in Sources */,
+				5DCBD2752A80136100A213B3 /* PembayaranProtocol.swift in Sources */,
+				5DCBD26E2A80053500A213B3 /* HistoryTransactionInteractor.swift in Sources */,
+				5DCBD2292A7ECEC100A213B3 /* BackButton.swift in Sources */,
+				5DCBD2352A7ED60A00A213B3 /* CircularProgressView.swift in Sources */,
+				5DCBD25C2A7EEB2D00A213B3 /* DefaultView.swift in Sources */,
+				5DCBD2102A7EAEE000A213B3 /* HomeScreenView.swift in Sources */,
+				5DCBD2682A8003BE00A213B3 /* TransactionModel.swift in Sources */,
+				5DCBD2392A7ED8AE00A213B3 /* PembayaranEntity.swift in Sources */,
 				5DCBD1D72A7E9B1D00A213B3 /* qrcodereaderApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -417,6 +753,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"qrcodereader/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "We need open camera to scan code";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -453,6 +790,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"qrcodereader/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "We need open camera to scan code";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -604,6 +942,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		5DCBD22A2A7ED29700A213B3 /* XCRemoteSwiftPackageReference "CodeScanner" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/twostraws/CodeScanner";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		5DCBD22B2A7ED29700A213B3 /* CodeScanner */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5DCBD22A2A7ED29700A213B3 /* XCRemoteSwiftPackageReference "CodeScanner" */;
+			productName = CodeScanner;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 5DCBD1CB2A7E9B1D00A213B3 /* Project object */;
 }
